@@ -59,7 +59,6 @@ export default function Index() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#121212",
       }}
     >
       <Stack.Screen
@@ -82,7 +81,7 @@ export default function Index() {
           ),
         }}
       />
-      <Text style={{ color: "#fff" }}>
+      <Text>
         Edit app/index.tsx to edit this screen.
       </Text>
     </View>
