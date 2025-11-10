@@ -1,4 +1,4 @@
-import DropdownMenu from "react-native-dropdown-menu/src";
+import DropdownMenu from "react-native-dropdown-menu";
 import { Stack } from "expo-router";
 import { Text, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
@@ -77,9 +77,7 @@ export default function Index() {
           ),
         }}
       />
-      <Text>
-        Edit app/index.tsx to edit this screen.
-      </Text>
+      <Text>Edit app/index.tsx to edit this screen.</Text>
     </View>
   );
 }
