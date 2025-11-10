@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["DropdownMenuModule"]
+  },
+  "android": {
+    "modules": ["lhacenmed.modules.dropdownmenu.DropdownMenuModule"]
+  }
+}
