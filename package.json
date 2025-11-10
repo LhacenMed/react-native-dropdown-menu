@@ -8,6 +8,7 @@
     "build": "expo-module build",
     "clean": "expo-module clean",
     "lint": "expo-module lint",
+    "prepare": "expo-module prepare",
     "test": "expo-module test",
     "prepublishOnly": "expo-module prepublishOnly",
     "expo-module": "expo-module",
@@ -27,11 +28,11 @@
   "author": "lhacenmed <2l7acenmed653@gmail.com> (https://github.com/LhacenMed)",
   "license": "MIT",
   "homepage": "https://github.com/LhacenMed/react-native-dropdown-menu#readme",
-  "dependencies": {},
   "devDependencies": {
     "@types/react": "~19.1.0",
-    "expo-module-scripts": "^5.0.7",
+    "cross-env-shell": "^7.0.3",
     "expo": "^54.0.18",
+    "expo-module-scripts": "^5.0.7",
     "react-native": "0.81.5"
   },
   "peerDependencies": {
